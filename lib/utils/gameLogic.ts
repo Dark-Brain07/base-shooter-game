@@ -1,6 +1,17 @@
 import { Bubble } from '@/hooks/useGameState';
 
-export const COLORS = ['#FF6B6B', '#4ECDC4', '#45B7D1', '#FFA07A', '#98D8C8', '#F7DC6F'];
+// Brighter, more vibrant colors
+export const COLORS = [
+  '#FF3B3B', // Bright Red
+  '#3BFFEE', // Bright Cyan
+  '#3B5BFF', // Bright Blue
+  '#FF8C3B', // Bright Orange
+  '#3BFF7A', // Bright Green
+  '#FFE93B', // Bright Yellow
+  '#FF3BF5', // Bright Pink
+  '#B03BFF'  // Bright Purple
+];
+
 export const BUBBLE_RADIUS = 20;
 export const ROWS = 10;
 export const COLS = 8;
@@ -11,7 +22,7 @@ export function generateRandomColor(): string {
 
 export function createBubble(row: number, col: number, color?: string): Bubble {
   return {
-    id: `${row}-${col}-${Date.now()}`,
+    id: `${row}-${col}-${Date.now()}-${Math.random()}`,
     x: col * (BUBBLE_RADIUS * 2) + BUBBLE_RADIUS,
     y: row * (BUBBLE_RADIUS * 2) + BUBBLE_RADIUS,
     color: color || generateRandomColor(),
