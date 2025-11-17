@@ -1,0 +1,17 @@
+{
+  "accountAssociation": {
+    "header": "eyJmaWQiOjEsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHgifQ==",
+    "payload": "eyJkb21haW4iOiJiYXNlLXNob290ZXItZ2FtZS52ZXJjZWwuYXBwIn0=",
+    "signature": "MHg="
+  },
+  "frame": {
+    "version": "1",
+    "name": "Base Shooter",
+    "iconUrl": "https://base-shooter-game.vercel.app/icon.png",
+    "homeUrl": "https://base-shooter-game.vercel.app",
+    "imageUrl": "https://base-shooter-game.vercel.app/og-image.png",
+    "buttonTitle": "Play Game",
+    "splashImageUrl": "https://base-shooter-game.vercel.app/splash.png",
+    "splashBackgroundColor": "#1e1b4b"
+  }
+}
