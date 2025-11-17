@@ -1,0 +1,15 @@
+{
+  "accountAssociation": {
+    "header": "eyJmaWQiOjEsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHhFNkYxMjRlNjJGQjQwNjI0MzQ0MjhDNDMyNjJmNzI5RTAzOTMzMjZGIn0",
+    "payload": "eyJkb21haW4iOiJiYXNlLXNob290ZXIudmVyY2VsLmFwcCJ9",
+    "signature": "MHg..."
+  },
+  "frame": {
+    "version": "1",
+    "name": "Base Shooter",
+    "iconUrl": "https://base-shooter.vercel.app/icon.png",
+    "splashImageUrl": "https://base-shooter.vercel.app/splash.png",
+    "splashBackgroundColor": "#1e1b4b",
+    "homeUrl": "https://base-shooter.vercel.app"
+  }
+}
