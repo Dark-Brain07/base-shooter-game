@@ -16,10 +16,12 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Base Shooter - Bubble Shooter on Base Blockchain",
   description: "Play bubble shooter and save your high scores on Base blockchain. Compete on the leaderboard!",
+  metadataBase: new URL("https://base-shooter-game.vercel.app"),
   openGraph: {
     title: "Base Shooter - Blockchain Bubble Shooter",
     description: "Play bubble shooter and save scores on Base blockchain",
     images: ["/og-image.png"],
+    url: "https://base-shooter-game.vercel.app",
   },
   other: {
     "fc:frame": "vNext",
@@ -37,6 +39,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

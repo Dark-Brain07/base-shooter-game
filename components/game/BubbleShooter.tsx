@@ -12,7 +12,6 @@ import {
 } from '@/lib/utils/gameLogic';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Pause, Play, RotateCcw } from 'lucide-react';
-import { Bubble } from '@/hooks/useGameState';
 
 export default function BubbleShooter() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -274,9 +273,11 @@ export default function BubbleShooter() {
   return (
     <div className="flex flex-col items-center justify-center w-full">
       <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-4 sm:p-6 shadow-2xl max-w-full">
-        <div className="flex justify-between items-center mb-4 flex-wrap gap-2">
-          <h1 className="text-2xl sm:text-3xl font-bold text-white">Base Shooter</h1>
-          <div className="text-xl sm:text-2xl font-bold text-yellow-400">Score: {score}</div>
+        <div className="flex justify-between items-center mb-4 gap-2">
+          <h1 className="text-xl sm:text-2xl font-bold text-white truncate">Base Shooter</h1>
+          <div className="text-lg sm:text-xl font-bold text-yellow-400 whitespace-nowrap shrink-0">
+            Score: {score}
+          </div>
         </div>
 
         <div className="relative">
