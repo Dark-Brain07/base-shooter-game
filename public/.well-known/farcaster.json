@@ -1,8 +1,8 @@
 {
   "accountAssociation": {
-    "header": "eyJmaWQiOjEsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHgifQ==",
-    "payload": "eyJkb21haW4iOiJiYXNlLXNob290ZXItZ2FtZS52ZXJjZWwuYXBwIn0=",
-    "signature": "MHg="
+    "header": "eyJmaWQiOjUzMjAxNywidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweDlGZjRCZTNmMTNFM2QxNjk0MEU3NjYxZEU0Mjk0MGUwNGIwYkI3MGIifQ",
+    "payload": "eyJkb21haW4iOiJiYXNlLXNob290ZXItZ2FtZS52ZXJjZWwuYXBwIn0",
+    "signature": "NqJg7XjGQlfkX3qNPK6ifUp20mJX6nESbBgs+bQc2oh4qW69lRdH5R09sUSvQWOwrUdQ+3y39YQoURDCYvL1PBs="
   },
   "frame": {
     "version": "1",
@@ -12,6 +12,6 @@
     "imageUrl": "https://base-shooter-game.vercel.app/og-image.png",
     "buttonTitle": "Play Game",
     "splashImageUrl": "https://base-shooter-game.vercel.app/splash.png",
-    "splashBackgroundColor": "#1e1b4b"
+    "splashBackgroundColor": "#4c1d95"
   }
 }
